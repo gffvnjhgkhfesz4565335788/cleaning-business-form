@@ -1,8 +1,9 @@
+'use client';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { useState } from 'react';
 
-const home: nextpage = () => {
+const Home: NextPage = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
